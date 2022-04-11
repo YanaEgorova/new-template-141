@@ -1,6 +1,9 @@
 .header__wrapper {
     position: relative;
 }
+body.open-menu {
+    overflow: hidden;
+}
 .header {
     padding: 1.5rem 0;
     display: flex;
@@ -85,18 +88,18 @@
 }
 
 .cart__btn {
-    display: flex;
+    display: none;
     align-items: center;
     background-color: var(--third-brand-color);
     width: fit-content;
     margin: 0 auto;
-    padding: 1.5rem 2rem;
+    padding: 1rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     border-radius: 2rem;
 }
 .cart__btn svg {
-    width: 3rem;
+    width: 2.5rem;
     display: block;
     margin-right: 1rem;
     fill: var(--sub-text-color);
@@ -133,7 +136,10 @@
     .header {
         padding: 2rem 0;
     }
-  
+    .cart__btn {
+        display: flex;
+        margin-left: 2rem;
+    }
    .nav__link {
         position: relative;
       
