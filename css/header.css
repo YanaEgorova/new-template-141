@@ -88,11 +88,10 @@ body.open-menu {
 }
 
 .cart__btn {
-    display: none;
+    display: flex;
     align-items: center;
     background-color: var(--third-brand-color);
     width: fit-content;
-    margin: 0 auto;
     padding: 1rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -132,7 +131,7 @@ body.open-menu {
     display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .header {
         padding: 2rem 0;
     }
